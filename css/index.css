@@ -162,6 +162,11 @@ body {
   text-decoration: none;
 }
 
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .btn--text {
   color: var(--text);
   padding: 0;
