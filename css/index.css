@@ -353,6 +353,18 @@ body {
   font-weight: 600;
 }
 
+.board__note--filled {
+  opacity: 1;
+}
+
+.board__cell--notes-active .board__note {
+  opacity: 0.2;
+}
+
+.board__cell--notes-active .board__note--filled {
+  opacity: 1;
+}
+
 .board__note--conflict {
   position: relative;
 }
