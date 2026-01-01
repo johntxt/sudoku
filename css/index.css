@@ -184,9 +184,8 @@ body {
   min-width: 160px;
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid var(--line);
   background: var(--panel);
-  box-shadow: var(--panel-shadow);
+  box-shadow: 0 0 0 1px var(--line), var(--panel-shadow);
   display: none;
   z-index: 20;
 }
@@ -199,8 +198,9 @@ body {
   width: 12px;
   height: 12px;
   background: var(--panel);
-  border-left: 1px solid var(--line);
-  border-top: 1px solid var(--line);
+  border: 1px solid var(--line);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
   transform: rotate(45deg);
 }
 
