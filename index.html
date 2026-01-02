@@ -58,6 +58,7 @@
               tabindex="0">
               Pencil
             </button>
+            <div class="pad__spacer"></div>
             <button id="undoBtn" class="btn btn--pad-control pad__control-button" type="button" aria-label="Undo">
               <svg class="pad__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path
@@ -72,7 +73,13 @@
               </svg>
               <span class="sr-only">Redo</span>
             </button>
-            <button id="eraseBtn" class="btn btn--pad-control pad__control-button" type="button">Erase</button>
+            <button id="eraseBtn" class="btn btn--pad-control pad__control-button" type="button" aria-label="Erase">
+              <svg class="pad__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M6 6l12 12M18 6l-12 12" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+              <span class="sr-only">Erase</span>
+            </button>
           </div>
 
           <div class="pad__grid" id="pad"></div>
