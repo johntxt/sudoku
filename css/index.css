@@ -478,13 +478,33 @@ body {
   font-weight: 600;
   padding: 0;
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pad__controls {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
   gap: 8px;
   margin-bottom: 12px;
+}
+
+.pad__icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 @media (max-width:1024px) {

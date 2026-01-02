@@ -8,7 +8,7 @@
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%94%A2%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="/sudoku/css/index.css">
-  <script type="module" crossorigin src="/sudoku/assets/index-7A_T0pTV.js"></script>
+  <script type="module" crossorigin src="/sudoku/assets/index-CTccZskC.js"></script>
 </head>
 
 <body class="app">
@@ -58,8 +58,20 @@
               tabindex="0">
               Pencil
             </button>
-            <div class="pad__spacer"></div>
-            <button id="undoBtn" class="btn btn--pad-control pad__control-button" type="button">Undo</button>
+            <button id="undoBtn" class="btn btn--pad-control pad__control-button" type="button" aria-label="Undo">
+              <svg class="pad__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M9.5 5.5L4 11l5.5 5.5 1.4-1.4-3-3h6.6c2.7 0 4.9 2.2 4.9 4.9v1h2v-1c0-3.8-3.1-6.9-6.9-6.9H7.9l3-3-1.4-1.4z" />
+              </svg>
+              <span class="sr-only">Undo</span>
+            </button>
+            <button id="redoBtn" class="btn btn--pad-control pad__control-button" type="button" aria-label="Redo">
+              <svg class="pad__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M14.5 5.5l-1.4 1.4 3 3H9.5c-3.8 0-6.9 3.1-6.9 6.9v1h2v-1c0-2.7 2.2-4.9 4.9-4.9h6.6l-3 3 1.4 1.4L20 11l-5.5-5.5z" />
+              </svg>
+              <span class="sr-only">Redo</span>
+            </button>
             <button id="eraseBtn" class="btn btn--pad-control pad__control-button" type="button">Erase</button>
           </div>
 
