@@ -4,12 +4,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f2f2f2" />
   <title>Sudoku</title>
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%94%A2%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="/sudoku/css/index.css">
-  <script type="module" crossorigin src="/sudoku/assets/index-CTccZskC.js"></script>
-</head>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/sudoku/icons/icon-maskable.svg" />
+  <script type="module" crossorigin src="/sudoku/assets/index-CYnQfH6C.js"></script>
+  <link rel="stylesheet" crossorigin href="/sudoku/assets/index-D5Duiu-6.css">
+<link rel="manifest" href="/sudoku/manifest.webmanifest"></head>
 
 <body class="app">
   <div class="app__topbar">
@@ -40,6 +43,7 @@
         </div>
       </div>
       <button id="themeToggle" class="btn btn--text" type="button">Theme</button>
+      <button id="installBtn" class="btn btn--text" type="button" hidden>Install</button>
       <a class="btn btn--text" target="_blank" href="https://github.com/johntxt/sudoku/blob/main/README.md"
         aria-label="More about this game">ⓘ</a>
     </div>
