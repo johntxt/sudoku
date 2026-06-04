@@ -1,6 +1,6 @@
 # Sudoku
 
-Enjoy a simple game of [Sudoku](https://johntxt.github.io/sudoku).
+Enjoy a simple game of [Sudoku](https://johnchinjew.github.io/sudoku).
 
 ## Learn the rules
 
@@ -16,4 +16,4 @@ If you encounter a problem while playing, please message me: [@johnchinjew](http
 
 ---
 
-© [John Chin-Jew](https://johntxt.github.io/). All rights reserved.
+© [John Chin-Jew](https://johnchinjew.github.io/). All rights reserved.
